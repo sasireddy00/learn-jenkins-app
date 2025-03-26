@@ -20,7 +20,7 @@ pipeline {
             }
         }
         stage('Test'){
-            agent {
+            steps {
                 echo "Test stage"
             }
         }
