@@ -27,7 +27,7 @@ pipeline {
                 }
             }
             steps {
-                npm test
+                sh 'npm test'
             }
         }
     }
